@@ -13,7 +13,7 @@ export default function Home() {
         I&apos;m Hector Wong, Web developer/ Engineerin in Software
       </Section>
       <Section type='normal'>
-        I'm a Web developer with experience building websites and applications.
+        I&apos;m a Web developer with experience building websites and applications.
         I specialize in JavaScript, and have experience working with react in Next.js how framework.
         I always seeking to improve my skills and continue gorwing professionally in order
         to make contributions at the working group i an part of.
