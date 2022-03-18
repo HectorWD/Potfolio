@@ -10,7 +10,7 @@ const works = [
     title: 'Wind-bnb',
     thumbnail: `/img/WindBnb.png`,
     description: 'Web aplication: Next.js, Chakra-ui',
-    demo: 'https://wind-bnb-two.vercel.app/',
+    demo: `https://wind-bnb-two.vercel.app/`,
     repo: 'https://github.com/HectorWD/WindBnb'
   },
   {
@@ -18,7 +18,7 @@ const works = [
     title: 'Todo App',
     thumbnail: `/img/TodoApp.png`,
     description: 'Web aplication: Next.js, TailWind',
-    demo: 'https://todo-app-gold-delta.vercel.app/',
+    demo: `https://todo-app-gold-delta.vercel.app/`,
     repo: 'https://github.com/HectorWD/todo-app'
   },
   {
@@ -26,7 +26,7 @@ const works = [
     title: 'QuizApp',
     thumbnail: `/img/QuizApp.png`,
     description: 'Web aplication: Next.js, TailWind',
-    demo: 'https://quiz-app-nu-five.vercel.app/',
+    demo: `https://quiz-app-nu-five.vercel.app/`,
     repo: 'https://github.com/HectorWD/quizApp'
   },
   {
@@ -34,7 +34,7 @@ const works = [
     title: 'WeatherApp',
     thumbnail: `/img/WeatherApp.png`,
     description: 'Web aplication: Next.js, TailWind',
-    demo: 'https://weather-app-ten-theta.vercel.app/',
+    demo: `https://weather-app-ten-theta.vercel.app/`,
     repo: 'https://github.com/HectorWD/weatherApp'
   },
 ]
