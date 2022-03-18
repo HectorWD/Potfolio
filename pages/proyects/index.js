@@ -14,7 +14,7 @@ const works = [
     repo: 'https://github.com/HectorWD/WindBnb'
   },
   {
-    id: 1234,
+    id: `${1234}`,
     title: 'Todo App',
     thumbnail: `/img/TodoApp.png`,
     description: 'Web aplication: Next.js, TailWind',
