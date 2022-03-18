@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Banner />
       <Section title='About me' type='Strong'>
-        I'm Hector Wong, Web developer/ Engineerin in Software
+        I&apos;m Hector Wong, Web developer/ Engineerin in Software
       </Section>
       <Section type='normal'>
         I'm a Web developer with experience building websites and applications.

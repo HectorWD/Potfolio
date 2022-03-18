@@ -28,13 +28,13 @@ const Banner = () => {
       variants={variantBannerItems}
       transition={{delay:.4}}
       className='text-2xl text-justify text-sky-200'
-      >Hi! I'm Hector Wong WebDeveloper
+      >Hi! I&apos;m Hector Wong WebDeveloper
       </motion.h2>
       <motion.button
       variants={variantBannerItems}
       whileHover={{scale:1.1}}
       className="px-4 py-2 my-2 font-semibold bg-green-400 rounded md:ml-10 text-slate-700"
-      >Descargar CV
+      >Download CV
       </motion.button>
       </motion.div>
        
