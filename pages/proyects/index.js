@@ -37,9 +37,9 @@ const works = [
 ]
 const index = () => {
   return (
-    <motion.div className='flex justify-center'>
+    <motion.div className='flex items-center justify-center '>
       <motion.div
-        className='grid w-11/12 grid-flow-row grid-cols-1 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3 pt-14'
+        className='grid w-11/12 grid-flow-row grid-cols-1 h-11/12 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3 pt-14 '
       >
         {works.map((work, index) => (
           <WorkGridItem

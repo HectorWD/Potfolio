@@ -7,7 +7,7 @@ import Practices from "../components/section/Practices"
 export default function Home() {
 
   return (
-    <>
+    <motion.div>
       <Banner />
       <Section title='About me' type='Strong'>
         I&apos;m Hector Wong, Web developer/ Engineerin in Software
@@ -50,10 +50,9 @@ export default function Home() {
           <Practices title={'Constant learning'} src={'/img/practices-icons/aprendizaje.png'} >
           Every day I try to learn something new to put it into practice and be able to make my knowledge more complete and useful.
           </Practices>
-          
         </motion.div>
       </Section>
 
-    </>
+    </motion.div>
   )
 }

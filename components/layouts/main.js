@@ -20,8 +20,8 @@ const Main = ({children}) => {
             {children}
         </div>
     </main>
-    <footer>
-      <Footer/>
+    <footer className='sm:mt-64'>
+       <Footer/> 
     </footer>
     </>
   

@@ -20,8 +20,8 @@ const Banner = () => {
     className='flex flex-col items-center justify-center h-screen px-12 md:flex-row bg-slate-700 '
     >
       <motion.img
-      src="/img/Perfil.jpeg"
-      className="h-64 rounded-lg w-52 md:mr-4"
+      src="/img/Perfilado.jpg"
+      className="w-64 h-64 rounded-full md:mr-4"
       />
       <motion.div className="flex flex-col items-center justify-center">
       <motion.h2
