@@ -22,7 +22,7 @@ const WorkGridItem = ({ desc, id, title, thumbnail, delay, demo, repo }) => {
                 whileHover={{ scale: 1.03 }}
                 className={`flex flex-col w-full my-2 p-1 hover:cursor-pointer border rounded-lg`}
             >
-                <motion.div className='relative flex-none w-full h-64'>
+                <motion.div className='relative flex-none w-full h-72'>
 
                     <motion.img
                         src={thumbnail}
