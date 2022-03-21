@@ -55,17 +55,23 @@ const NavBar = () => {
                 >
                     <NavLinks>
                         <Link href={'/'}>
+                            <a onClick={handleOpen}>
                             Home
+                            </a>
                         </Link>
                     </NavLinks>
                     <NavLinks>
                         <Link href={'/proyects'}>
+                            <a onClick={handleOpen}>
                             Proyects
+                            </a>
                         </Link>
                     </NavLinks>
                     <NavLinks>
                         <Link href={'/contact'}>
+                            <a onClick={handleOpen}>
                             Contact
+                            </a>
                         </Link>
                     </NavLinks>
                 </motion.ul>
