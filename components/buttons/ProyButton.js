@@ -8,9 +8,9 @@ import {MdWebAsset} from 'react-icons/md'
 const ProyButton = ({children,url,type}) => {
   return (
     <Link href={url}>
-    <motion.button className='flex flex-row items-center justify-center px-1 mr-2 duration-75 ease-in border rounded-lg text-md hover:bg-slate-700 hover:text-white'>
+    <a target={'_blank'} className='flex flex-row items-center justify-center px-1 mr-2 duration-75 ease-in border rounded-lg text-md hover:bg-slate-700 hover:text-white'>
        {type=== 'repo' ? <AiFillGithub/>: null} {type=== 'demo' ? <MdWebAsset/>: null}  {children}
-    </motion.button>
+    </a>
     </Link>
   )
 }
