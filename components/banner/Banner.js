@@ -1,6 +1,5 @@
 import { motion } from "framer-motion"
 
-
 const Banner = () => {
   const variantBanner = {
     hidden: { opacity: 0, y: -10 },
