@@ -1,5 +1,4 @@
 import { motion } from "framer-motion"
-import Link from 'next/link'
 
 
 const Banner = () => {
@@ -41,15 +40,12 @@ const Banner = () => {
             Download CV
           </motion.a>
         </motion.div>
-
       </motion.div>
       <motion.div
         initial={{ opacity: 0, x: '-100vh' }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ delay: .5, duration: .5, }}
       >
-
-
       </motion.div>
     </>
   )
